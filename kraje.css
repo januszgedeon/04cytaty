@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&subset=latin-ext');
+* {
+  font-family: 'Baloo', cursive;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  background: #C8F7C5; }
+
+h1 {
+  color: #F62459;
+  font-size: 40px; }
+
+button {
+  background: #364235;
+  color: #C8F7C5;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: background .4s;
+  cursor: pointer; }
+
+  button:hover {
+    background: #485947; }
+
+input {
+  background: transparent;
+  color: #364235;
+  border: 2px solid #364235;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+   }
+
+.search-result {
+  margin: 20px auto 0 auto;
+  }
+
+.search-result h3 {
+  color: #F62459;
+  font-size: 30px;
+  padding: 10px 0;
+  }
+ 
+
+.search-result ul li {
+  font-size: 20px;
+  padding-top: 10px; }
